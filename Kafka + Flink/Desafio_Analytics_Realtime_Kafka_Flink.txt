@@ -1,0 +1,91 @@
+Desafio Técnico – Analytics Engineer Sênior
+
+🎯 Monitoramento em Tempo Quase Real com Kafka + Flink
+
+Este desafio técnico simula uma situação em que uma empresa de logística precisa monitorar o risco de ruptura de estoque em tempo quase real, utilizando uma arquitetura baseada em eventos.
+
+
+
+Você vai construir um pipeline de ingestão e processamento de dados com Kafka e Apache Flink, fornecendo alertas e insights operacionais.
+
+🧪 Descrição do Desafio
+
+Você receberá (ou criará) dados simulando eventos de pedidos, entregas e movimentações de estoque. Esses eventos devem ser produzidos em Kafka e processados por um job Flink para gerar alertas e métricas em tempo quase real.
+
+
+
+O resultado deverá ser armazenado em um banco leve (PostgreSQL ou Parquet) e visualizado em um dashboard analítico (Power BI, Superset, Metabase ou outro).
+
+🔧 Entregáveis Técnicos
+
+- Simulador de eventos Kafka (em Python ou outro)
+
+- Job Flink para:
+
+  - Calcular estoque restante em tempo real
+
+  - Detectar rupturas (estoque = 0)
+
+  - Identificar padrões incomuns de consumo
+
+- Armazenamento dos dados processados (PostgreSQL, Parquet, etc.)
+
+- Dashboard com métricas operacionais:
+
+  - Estoque por produto
+
+  - Alertas de ruptura
+
+  - Eventos por unidade de tempo
+
+✨ Extras que contam pontos
+
+- Uso de janelas (windowing) no Flink
+
+- Produção e consumo de múltiplos tópicos Kafka
+
+- Deploy com Docker Compose
+
+- Monitoramento com logs ou alertas básicos
+
+- Scripts bem documentados e modularizados
+
+⚠ Importante
+
+Você pode usar qualquer simulador ou gerar os dados manualmente.
+
+
+
+O foco está no processamento em tempo quase real e na clareza do fluxo de eventos.
+
+
+
+Não é necessário construir um cluster real — utilize containers ou ambiente local sempre que possível.
+
+📦 Entrega esperada
+
+- Repositório no GitHub com:
+
+  - Código do simulador de eventos
+
+  - Job Flink com lógica comentada
+
+  - Docker Compose (se usar)
+
+  - README.md com instruções de execução e prints ou vídeo do dashboard
+
+🕒 Instruções Finais
+
+Prazo para entrega: 3 dias corridos
+
+Tempo estimado de execução: entre 6 a 10 horas
+
+Nível de dificuldade: Sênior
+
+
+
+Este desafio testa sua capacidade de lidar com dados em fluxo, reagir a eventos e gerar valor com análise operacional.
+
+
+
+Entregue como se o negócio dependesse da sua solução para evitar prejuízos! 🚀
