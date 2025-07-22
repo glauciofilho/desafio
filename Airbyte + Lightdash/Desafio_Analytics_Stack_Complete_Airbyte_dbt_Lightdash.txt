@@ -1,0 +1,101 @@
+Desafio Técnico – Analytics Engineer Sênior
+
+🎯 Pipeline Completo com Airbyte + dbt + Lightdash
+
+Este desafio técnico simula um projeto completo de dados, desde a ingestão até a visualização, usando uma stack moderna amplamente utilizada em times internacionais.
+
+
+
+Seu objetivo é construir um pipeline funcional com ingestão via Airbyte, transformação com dbt e visualização com Lightdash.
+
+🧪 Descrição do Desafio
+
+Você receberá (ou criará) um conjunto de dados simulando uma operação de vendas e cancelamentos. Os dados devem passar por todas as etapas do pipeline:
+
+- Ingestão com Airbyte (API ou CSVs)
+
+- Transformação com dbt (modelo de negócio e métricas)
+
+- Visualização com Lightdash (exploração e análise de métricas)
+
+
+
+Você será responsável por configurar o pipeline de ponta a ponta, criando modelos e dashboards claros e bem estruturados.
+
+🔧 Entregáveis Técnicos
+
+- Pipeline Airbyte configurado (com source e destination definidos)
+
+- Projeto dbt com camadas staging e marts
+
+- Métricas implementadas com arquivos .yml e documentação
+
+- Dashboard criado no Lightdash com:
+
+  - Receita total
+
+  - Total de pedidos
+
+  - Total de cancelamentos
+
+- Instruções claras para executar o projeto localmente
+
+✨ Extras que contam pontos
+
+- Deploy com Docker Compose
+
+- Tests no dbt (not_null, unique, relationships)
+
+- README em inglês explicando a modelagem e decisões
+
+- Uso de variáveis ou macros dbt
+
+- Uso de métricas centralizadas (metrics.yml)
+
+⚠ Importante
+
+Você pode usar qualquer dataset (real ou fictício) desde que demonstre domínio do pipeline completo.
+
+
+
+Não é necessário publicar o Lightdash online. Você pode incluir prints ou vídeo da navegação.
+
+
+
+Foque em:
+
+- Clareza do modelo de dados
+
+- Organização do repositório
+
+- Coesão entre as ferramentas
+
+📦 Entrega esperada
+
+- Repositório no GitHub contendo:
+
+  - Projeto dbt completo
+
+  - Configurações Airbyte (ou instruções para simular)
+
+  - Configurações Lightdash (modelo + métricas)
+
+  - README.md com explicações técnicas e passo a passo de execução
+
+- Prints do dashboard final (ou vídeo opcional com walkthrough)
+
+🕒 Instruções Finais
+
+Prazo para entrega: 3 dias corridos
+
+Tempo estimado de execução: entre 6 a 8 horas
+
+Nível de dificuldade: Sênior
+
+
+
+Esse desafio avalia sua capacidade de integrar diferentes ferramentas da stack moderna de dados de forma eficiente e bem documentada.
+
+
+
+Mostre que você sabe construir um pipeline moderno como nos melhores times de dados do mundo! 🚀

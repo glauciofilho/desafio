@@ -1,0 +1,95 @@
+Desafio Técnico – Analytics Engineer Sênior
+
+🎯 Sistema de Testes A/B com dbt + Superset
+
+Este desafio técnico simula o cenário de uma empresa SaaS que executa testes A/B com foco em conversão. Seu papel será criar um modelo analítico que permita analisar e visualizar os resultados desses testes com precisão e clareza.
+
+
+
+Você usará dbt para construir a camada de dados e Superset (ou equivalente) para explorar os insights.
+
+🧪 Descrição do Desafio
+
+Você trabalhará com um conjunto simulado de dados de usuários, grupos de experimento (controle e variações) e eventos de conversão.
+
+
+
+A tarefa consiste em modelar as tabelas necessárias para calcular métricas como taxa de conversão, uplift e significância estatística entre os grupos.
+
+🔧 Entregáveis Técnicos
+
+- Projeto dbt com:
+
+  - Camada staging com os dados de entrada (usuários, eventos)
+
+  - Tabelas finais com cálculo de:
+
+    - Conversão por grupo
+
+    - Uplift entre variação e controle
+
+    - Significância estatística (p-valor simplificado)
+
+- Dashboard em Superset (ou Metabase / Looker Studio) com:
+
+  - Comparação de grupos A/B
+
+  - Tabelas com resultados por segmento
+
+  - Visualizações que destacam diferenças significativas
+
+✨ Extras que contam pontos
+
+- Criação de múltiplos grupos (teste A/B/C)
+
+- Cálculo de intervalo de confiança
+
+- Filtros por segmento (ex: país, faixa etária)
+
+- Exportação para CSV dos resultados
+
+- README com explicações estatísticas e decisões de modelagem
+
+⚠ Importante
+
+Você pode simular os dados manualmente ou usar geradores automáticos.
+
+
+
+Não é necessário utilizar bibliotecas estatísticas complexas. Use lógica simplificada para cálculos de p-valor e uplift.
+
+
+
+Foco principal:
+
+- Clareza na modelagem
+
+- Visualização de impacto
+
+- Conclusões acionáveis
+
+📦 Entrega esperada
+
+- Repositório no GitHub com:
+
+  - Projeto dbt completo
+
+  - Prints ou vídeo do dashboard
+
+  - README.md com instruções e racional estatístico utilizado
+
+🕒 Instruções Finais
+
+Prazo para entrega: 3 dias corridos
+
+Tempo estimado de execução: entre 5 a 8 horas
+
+Nível de dificuldade: Sênior
+
+
+
+Este desafio busca avaliar sua habilidade em modelar testes estatísticos e entregar resultados analíticos claros para tomada de decisão.
+
+
+
+Imagine que seu dashboard será usado pela liderança para decidir o futuro de um novo recurso. Capriche! 🚀
